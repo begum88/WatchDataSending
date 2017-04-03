@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.begumpasinli.watchdatasending.MainActivityWear"
+    tools:deviceIds="wear">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight= "0.5"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title_steps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Steps Taken:"
+        android:textAppearance="@style/TextAppearance.Wearable.Small" />
+
+    <TextView
+        android:id="@+id/text_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.Wearable.Small" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight= "0.5"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title_calories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Calories Taken:"
+            android:textAppearance="@style/TextAppearance.Wearable.Small" />
+
+        <TextView
+            android:id="@+id/text_calories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.Wearable.Small" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight= "0.5"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title_accelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Accelerometer:"
+            android:textAppearance="@style/TextAppearance.Wearable.Small" />
+
+        <TextView
+            android:id="@+id/text_accelerometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.Wearable.Small" />
+
+    </LinearLayout>
+
+</LinearLayout>
